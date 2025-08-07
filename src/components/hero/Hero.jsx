@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.styles.css";
-import HeroParticles from "./HeroParticles"; 
 
 const Hero = () => {
   return (
@@ -11,8 +10,6 @@ const Hero = () => {
       </video>
 
       <div className="hero-overlay" />
-
-      <HeroParticles />
 
       <div className="hero-content">
         <img src="/imagenes/logo.png" alt="The Clothesure Logo" className="hero-logo" />
