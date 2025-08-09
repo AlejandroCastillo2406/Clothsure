@@ -13,10 +13,13 @@ const Header = () => {
 
       <nav className="header-nav">
         <ul>
-          <li><a href="#demo">Demo</a></li>
-          <li><a href="#como-funciona">Cómo funciona</a></li>
-          <li><a href="#niveles">Recompensas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#s2">¿Qué es?</a></li>
+          <li><a href="#s3">IA</a></li>
+          <li><a href="#s3-1">Demo IA</a></li>
+          <li><a href="#sr">Niveles</a></li>
+          <li><a href="#r">Reacciona</a></li>
+          <li><a href="#fin">Contacto</a></li>
         </ul>
       </nav>
     </header>

@@ -3,7 +3,7 @@ import './S3.styles.css';
 
 const S3 = () => {
   return (
-    <section className="s3-container">
+    <section id="s3" className="s3-container">
       <div className="s3-background">
         <video className="s3-background-video" autoPlay muted loop playsInline>
           <source src="/videos/S3.mp4" type="video/mp4" />
@@ -28,7 +28,6 @@ const S3 = () => {
 
         <div className="s3-demo-container">
           <div className="s3-process-flow">
-            {/* Paso 1: Subir foto */}
             <div className="s3-step">
               <div className="s3-step-number">01</div>
               <div className="s3-step-content">
@@ -44,13 +43,11 @@ const S3 = () => {
               </div>
             </div>
 
-            {/* Flecha animada */}
             <div className="s3-arrow">
               <div className="s3-arrow-line"></div>
               <div className="s3-arrow-head"></div>
             </div>
 
-            {/* Paso 2: Análisis IA */}
             <div className="s3-step">
               <div className="s3-step-number">02</div>
               <div className="s3-step-content">
@@ -69,13 +66,11 @@ const S3 = () => {
               </div>
             </div>
 
-            {/* Flecha animada */}
             <div className="s3-arrow">
               <div className="s3-arrow-line"></div>
               <div className="s3-arrow-head"></div>
             </div>
 
-            {/* Paso 3: Recomendaciones */}
             <div className="s3-step">
               <div className="s3-step-number">03</div>
               <div className="s3-step-content">

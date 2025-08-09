@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.styles.css";
+import "./hero.styles.css";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
           La moda no se repite. Se impone. Atrévete a decidir qué merece ser visto.
         </p>
 
-        <a href="#demo" className="hero-button">
+        <a href="#s4" className="hero-button">
           Probar la demo
         </a>
       </div>

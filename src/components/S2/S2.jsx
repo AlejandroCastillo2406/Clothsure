@@ -3,7 +3,7 @@ import './S2.styles.css';
 
 const S2 = () => {
   return (
-    <section className="s2-container">
+    <section id="s2" className="s2-container">
       <div className="s2-background">
         <div className="s2-grid-overlay"></div>
         <div className="s2-gradient-overlay"></div>
