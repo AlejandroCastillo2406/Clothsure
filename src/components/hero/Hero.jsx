@@ -19,7 +19,7 @@ const Hero = () => {
           La moda no se repite. Se impone. Atrévete a decidir qué merece ser visto.
         </p>
 
-        <a href="#s4" className="hero-button">
+        <a href="#r" className="hero-button">
           Probar la demo
         </a>
       </div>
